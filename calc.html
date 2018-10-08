@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+ 
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" integrity="sha256-IFHWFEbU2/+wNycDECKgjIRSirRNIDp2acEB5fvdVRU=" crossorigin="anonymous"></script>
+    
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         
+        
+        
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js" integrity="sha256-erF9fIMASEVmAWGdOmQi615Bmx0L/vWNixxTNDXS4FQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      
+
+
+ 
+
+     <link href="https://fonts.googleapis.com/css?family=Monoton|Orbitron|Russo+One|Faster+One|Indie+Flower|Pacifico|Press+Start+2P|Dancing+Script|Open+Sans" rel="stylesheet"> 
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/genericons/3.4.1/genericons/genericons.css">
+
+
+
+      <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+
+        <script src="calscript.js"></script>
+     
+        <link rel="stylesheet" href="calstyle.css">
+
+        <title >Awesome Calculator</title>
+    </head>
+
+    <body >
+        <div>
+            <p><br><br></p>
+        </div>
+
+
+       
+
+<div class="container calculator">
+ <div class="casio" style="text-align: center;margin-top: -16px;margin-bottom: 8px; font-size: 2em;font-family: Russo One;"> Calculator</div>
+  <div class="row text-center">
+    <i id="battery" class="fa fa-battery-4 fa-stack-1x" style="visibility: hidden"></i>
+    <input id="input-window" disabled />
+    <div>
+      <button id="power" class="aluminum " onclick="powerButton()"><i id="power-btn" class="fa fa-md fa-power-off"></i></button>
+      <button id="clear" class="aluminum " onclick="clearButton()">C</button>
+      <button id="%" class="aluminum operation" onclick="percent()">%</button>
+      <button id="/" class="aluminum operation " onclick="operate('/')">&divide;</button>
+    </div>
+    <div>
+      <button id="7" class="aluminum  number">7</button>
+      <button id="8" class="aluminum  number">8</button>
+      <button id="9" class="aluminum  number">9</button>
+      <button id="*" class="aluminum operation" onclick="operate('*')">&times;</button>
+    </div>
+    <div>
+      <button id="4" class="aluminum  number">4</button>
+      <button id="5" class="aluminum  number">5</button>
+      <button id="6" class="aluminum  number">6</button>
+      <button id="-" class="aluminum operation" onclick="operate('-')">-</button>
+    </div>
+    <div>
+      <button id="1" class="aluminum  number">1</button>
+      <button id="2" class="aluminum  number">2</button>
+      <button id="3" class="aluminum  number">3</button>
+      <button id="+" class="aluminum operation" onclick="operate('+')">+</button>
+    </div>
+    <div>
+      <button id="0" class="aluminum  number">0</button>
+      <button id="." class="aluminum " onclick="decimal()"><big><big></big><b><b>.</b></b></big></button>
+      <button id="-1" class="aluminum operation" onclick="plusmin()">+/-</button>
+      <button id="=" class="aluminum equal" onclick="equals()">=</button>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container-fluid text-center">
+    
+   
+  </div>
+</footer>
+<div id="formula" style="display: none"></div>
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+ 
+
+
+    </body>
+    </html>

@@ -1,0 +1,124 @@
+/* #c3c2ab */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+@font-face {
+  font-family: 'alarm-clock';
+  src: url('https://tylermoeller.github.io/js-calculator/assets/font/alarm-clock.ttf.woff') format('woff'), 
+    url('https://tylermoeller.github.io/js-calculator/assets/font/alarm-clock.ttf.svg#alarm-clock') format('svg'), 
+    url('https://tylermoeller.github.io/js-calculator/assets/font/alarm-clock.ttf.eot'), 
+    url('https://tylermoeller.github.io/js-calculator/assets/font/alarm-clock.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  position: relative;
+  min-width: 300px;
+  min-height: 100%;
+}
+
+body {
+  font-size: 14px;
+  -webkit-user-select: none!important;
+  -moz-user-select: -moz-none!important;
+  -ms-user-select: none!important;
+  user-select: none!important;
+  background-color: #818181;
+  /* buffer for footer */
+  margin-bottom: 155px;
+  color:black;
+}
+
+.ui-page {
+  min-height: 100%!important;
+  outline: none;
+}
+
+.ui-loader {
+  display:none;
+}
+
+.headroom {
+  margin-top: 10%;
+}
+
+.brand {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.model {
+  margin-bottom: 1em;
+}
+
+.calculator {
+  padding: 1.5em 0 1.5em 0;
+  width: 330px;
+  height: 520px;
+  background:#E6E6DF ;
+  background-color: #FCFCE7 ;
+  
+  
+  border: 1px solid #908b85;
+    border-radius: 20px; 
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+input:disabled {
+  opacity: 1;
+  font-family: 'alarm-clock', monospace;
+  margin: 0 0 .5em 0;
+  padding: .25em .1em 0 0;
+  width: 288px;
+  border-radius: 10px;
+  font-size: 2.7em;
+  text-align: right;
+  background-color: darkgrey;
+  color: rgba(34, 34, 34, 1);
+  height: 1.7em;
+}
+
+#battery {
+  left: -117px;
+}
+
+.aluminum {
+  font-size: 1.7em;
+  /* margin:-0.5px!important; */
+  /* outline: none; */
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  padding: 0;
+}
+
+.aluminum:active {
+  color: rgba(0, 102, 204, 1);
+  box-shadow: 1px 1px 10px rgba(0, 102, 204, 1);
+}
+
+
+.equal{
+  background-color: orangered;
+  color: #FCFCE7;
+}
+
+.equal{
+  box-shadow: none!important;
+}
+.equal:hover{
+  background-color: orangered!important;
+}
+
+.operation {
+
+  background-color: #E6E6DF ;
+  color: orangered;
+  font-size: 2em;
+
+}
+.operation:hover{
+  background-color: #BBBBBA!important ;
+  box-shadow: none!important;
+}
